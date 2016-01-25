@@ -2,7 +2,7 @@
 title: Quero Uma Loja
 email: contato@queroumaloja.net
 description: Quero Uma Loja é uma plataforma simples para sites que queiram vender online.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.queroumaloja.net" # the base hostname & protocol for your site
 
 # Build settings

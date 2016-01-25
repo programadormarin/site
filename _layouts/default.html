@@ -12,6 +12,7 @@
         Loading...
       </div>
     </div>
+
     <!-- Wrap -->
     <div class="wrap">
       {% include header.html %}
@@ -23,6 +24,7 @@
       <!-- /Main Section -->
 
       {% include footer.html %}
+
       <!-- Modal -->
       <section id="modals">
         <!-- Login Modal -->
@@ -57,6 +59,7 @@
           </div>
         </div>
         <!-- /Logan Modal -->
+
         <!-- Registration Modal -->
         <div class="modal register fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModal" aria-hidden="true">
           <div class="modal-dialog">
@@ -104,35 +107,37 @@
         </div>
         <!-- /Registration Modal -->
       </section>
+
       <!-- Scroll To Top -->
       <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
     </div>
     <!-- /Wrap -->
+
     <!-- The Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-1.0.0.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/revolution-slider/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="js/jquery.parallax.js"></script>
-    <script src="js/jquery.wait.js"></script>
-    <script src="js/fappear.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/superfish.js"></script>
-    <script src="js/tweetMachine.js"></script>
-    <script src="js/tytabs.js"></script>
-    <script src="js/jquery.gmap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/jflickrfeed.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{ 'js/jquery.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery-migrate-1.0.0.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery-ui.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/bootstrap.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/revolution-slider/js/jquery.themepunch.plugins.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/revolution-slider/js/jquery.themepunch.revolution.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.parallax.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.wait.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/fappear.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/modernizr-2.6.2.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.bxslider.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.prettyPhoto.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/superfish.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/tweetMachine.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/tytabs.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.gmap.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.sticky.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.countTo.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jflickrfeed.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/imagesloaded.pkgd.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/waypoints.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/wow.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/jquery.fitvids.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'js/custom.js' | prepend: site.baseurl }}"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
